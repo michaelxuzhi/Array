@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ed - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPA3FA.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/ed.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"F:\Program Files (x86)\Microsoft Visual Studio\MyProjects\ed\ssd.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPA3FA.tmp" 
+<h3>Output Window</h3>
+Compiling...
+ssd.cpp
+F:\Program Files (x86)\Microsoft Visual Studio\MyProjects\ed\ssd.cpp(29) : error C2664: 'strcmp' : cannot convert parameter 2 from 'char' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+ssd.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
